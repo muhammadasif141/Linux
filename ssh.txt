@@ -1,0 +1,8 @@
+neofetch
+
+sudo apt install ssh
+sudo service ssh start
+sudo service ssh status
+sudo nano /etc/ssh/sshd_config
+sudo service ssh restat
+
