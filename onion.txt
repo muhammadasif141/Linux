@@ -1,0 +1,18 @@
+sudo apt update                      <br>
+sudo apt install tor                <br>
+sudo nano /etc/tor/torrc            <br>
+sudo service tor stop               <br>
+sudo service tor start              <br>
+sudo service tor status         <br>
+sudo cat /var/lib/tor/hidden_service/hostname            <br>
+sudo apt install nginx                <br>
+sudo service nginx start              <br>
+sudo service nginx status               <br>
+sudo nano /etc/nginx/nginx.conf           <br>
+server token off;;uncomment           <br>
+port_in_redirect off; new line            <br>
+server name_in_redirect off; ;uncomment       <br>
+sudo service nginx restart        <br>
+cd /var/www               <br>
+//edit the html       <br>
+sudo service nginx restart          <br>
